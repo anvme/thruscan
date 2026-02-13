@@ -2,8 +2,8 @@ name: Release CDN Assets
 
 on:
   push:
-    branches:
-      - cdn
+    tags:
+      - 'v*'
 
 permissions:
   contents: write
